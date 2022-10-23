@@ -51,8 +51,8 @@ jobs:
           mkdir -p "$HOME/.ccache"
           mkdir build
           cd build
-          cmake .. -GNinja -DLINUX_LOCAL_DEV=true -DCMAKE_C_COMPILER=/usr/lib/ccache/gcc -DCMAKE_CXX_COMPILER=/usr/lib/ccache/g++
-          ninja
+          cmake ..
+          make
       - name: Package Dolphin-Binary
         run: |
           mkdir -p $GITHUB_WORKSPACE/artifacts

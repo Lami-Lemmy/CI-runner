@@ -1,0 +1,2 @@
+/usr/bin/ar qcTP libspng.a CMakeFiles/spng.dir/libspng/spng/spng.c.o
+/usr/bin/ranlib libspng.a

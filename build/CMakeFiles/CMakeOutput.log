@@ -1,0 +1,2210 @@
+The system is: Linux - 6.0.3-arch3-1 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/3.24.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5ef71/fast && /usr/bin/make  -f CMakeFiles/cmTC_5ef71.dir/build.make CMakeFiles/cmTC_5ef71.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5ef71.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5ef71.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccpwiKTC.s
+GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4b798a352742e8322eaa4a166b8f6299
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5ef71.dir/'
+ as -v --64 -o CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o /tmp/ccpwiKTC.s
+GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.39.0
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_5ef71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ef71.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o -o cmTC_5ef71 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ef71' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5ef71.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8wbKIv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5ef71 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ef71' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5ef71.'
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_5ef71/fast && /usr/bin/make  -f CMakeFiles/cmTC_5ef71.dir/build.make CMakeFiles/cmTC_5ef71.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5ef71.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5ef71.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccpwiKTC.s]
+  ignore line: [GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4b798a352742e8322eaa4a166b8f6299]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5ef71.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o /tmp/ccpwiKTC.s]
+  ignore line: [GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.39.0]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_5ef71]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ef71.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o -o cmTC_5ef71 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ef71' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5ef71.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8wbKIv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5ef71 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8wbKIv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5ef71] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..]
+    arg [CMakeFiles/cmTC_5ef71.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_47ecb/fast && /usr/bin/make  -f CMakeFiles/cmTC_47ecb.dir/build.make CMakeFiles/cmTC_47ecb.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ecb.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_47ecb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc23i379.s
+GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 402ce889a414e2a3abbbe3146fa0a6cb
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ecb.dir/'
+ as -v --64 -o CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc23i379.s
+GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.39.0
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_47ecb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47ecb.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_47ecb 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47ecb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47ecb.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchqgPD6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47ecb /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47ecb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47ecb.'
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0] ==> [/usr/include/c++/12.2.0]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu] ==> [/usr/include/c++/12.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward] ==> [/usr/include/c++/12.2.0/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12.2.0;/usr/include/c++/12.2.0/x86_64-pc-linux-gnu;/usr/include/c++/12.2.0/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_47ecb/fast && /usr/bin/make  -f CMakeFiles/cmTC_47ecb.dir/build.make CMakeFiles/cmTC_47ecb.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ecb.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_47ecb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc23i379.s]
+  ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 402ce889a414e2a3abbbe3146fa0a6cb]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ecb.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc23i379.s]
+  ignore line: [GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.39.0]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_47ecb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47ecb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_47ecb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47ecb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47ecb.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchqgPD6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47ecb /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchqgPD6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_47ecb] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..]
+    arg [CMakeFiles/cmTC_47ecb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test FLAG_C_HAVE_SSE2 succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_242d3/fast && /usr/bin/make  -f CMakeFiles/cmTC_242d3.dir/build.make CMakeFiles/cmTC_242d3.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_242d3.dir/src.c.o
+/usr/bin/cc -DFLAG_C_HAVE_SSE2  -Werror -msse2 -o CMakeFiles/cmTC_242d3.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_242d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_242d3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_242d3.dir/src.c.o -o cmTC_242d3 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_HAVE_SSE2 succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_af6d4/fast && /usr/bin/make  -f CMakeFiles/cmTC_af6d4.dir/build.make CMakeFiles/cmTC_af6d4.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af6d4.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_HAVE_SSE2  -Werror -msse2 -o CMakeFiles/cmTC_af6d4.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_af6d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af6d4.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_af6d4.dir/src.cxx.o -o cmTC_af6d4 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7f861/fast && /usr/bin/make  -f CMakeFiles/cmTC_7f861.dir/build.make CMakeFiles/cmTC_7f861.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f861.dir/src.c.o
+/usr/bin/cc -DFLAG_C_NO_STRICT_ALIASING  -Werror -fno-strict-aliasing -o CMakeFiles/cmTC_7f861.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f861
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f861.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7f861.dir/src.c.o -o cmTC_7f861 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68ac8/fast && /usr/bin/make  -f CMakeFiles/cmTC_68ac8.dir/build.make CMakeFiles/cmTC_68ac8.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68ac8.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_NO_STRICT_ALIASING  -Werror -fno-strict-aliasing -o CMakeFiles/cmTC_68ac8.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_68ac8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68ac8.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_68ac8.dir/src.cxx.o -o cmTC_68ac8 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_NO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_20eec/fast && /usr/bin/make  -f CMakeFiles/cmTC_20eec.dir/build.make CMakeFiles/cmTC_20eec.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20eec.dir/src.c.o
+/usr/bin/cc -DFLAG_C_NO_EXCEPTIONS  -Werror -fno-exceptions -o CMakeFiles/cmTC_20eec.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_20eec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20eec.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_20eec.dir/src.c.o -o cmTC_20eec 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_NO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_258d4/fast && /usr/bin/make  -f CMakeFiles/cmTC_258d4.dir/build.make CMakeFiles/cmTC_258d4.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_258d4.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_NO_EXCEPTIONS  -Werror -fno-exceptions -o CMakeFiles/cmTC_258d4.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_258d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_258d4.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_258d4.dir/src.cxx.o -o cmTC_258d4 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_VISIBILITY_INLINES_HIDDEN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0923d/fast && /usr/bin/make  -f CMakeFiles/cmTC_0923d.dir/build.make CMakeFiles/cmTC_0923d.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0923d.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_VISIBILITY_INLINES_HIDDEN  -Werror -fvisibility-inlines-hidden -o CMakeFiles/cmTC_0923d.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0923d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0923d.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0923d.dir/src.cxx.o -o cmTC_0923d 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ef07d/fast && /usr/bin/make  -f CMakeFiles/cmTC_ef07d.dir/build.make CMakeFiles/cmTC_ef07d.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef07d.dir/src.c.o
+/usr/bin/cc -DFLAG_C_VISIBILITY_HIDDEN  -Werror -fvisibility=hidden -o CMakeFiles/cmTC_ef07d.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ef07d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef07d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ef07d.dir/src.c.o -o cmTC_ef07d 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_23d7e/fast && /usr/bin/make  -f CMakeFiles/cmTC_23d7e.dir/build.make CMakeFiles/cmTC_23d7e.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23d7e.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_VISIBILITY_HIDDEN  -Werror -fvisibility=hidden -o CMakeFiles/cmTC_23d7e.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_23d7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d7e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_23d7e.dir/src.cxx.o -o cmTC_23d7e 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_FOMIT_FRAME_POINTER succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e3b90/fast && /usr/bin/make  -f CMakeFiles/cmTC_e3b90.dir/build.make CMakeFiles/cmTC_e3b90.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3b90.dir/src.c.o
+/usr/bin/cc -DFLAG_C_FOMIT_FRAME_POINTER  -Werror -fomit-frame-pointer -o CMakeFiles/cmTC_e3b90.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3b90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b90.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e3b90.dir/src.c.o -o cmTC_e3b90 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_FOMIT_FRAME_POINTER succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d55f/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d55f.dir/build.make CMakeFiles/cmTC_6d55f.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d55f.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_FOMIT_FRAME_POINTER  -Werror -fomit-frame-pointer -o CMakeFiles/cmTC_6d55f.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6d55f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d55f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_6d55f.dir/src.cxx.o -o cmTC_6d55f 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_GGDB succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6ec11/fast && /usr/bin/make  -f CMakeFiles/cmTC_6ec11.dir/build.make CMakeFiles/cmTC_6ec11.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ec11.dir/src.c.o
+/usr/bin/cc -DFLAG_C_GGDB  -Werror -ggdb -o CMakeFiles/cmTC_6ec11.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6ec11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ec11.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6ec11.dir/src.c.o -o cmTC_6ec11 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_GGDB succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0d444/fast && /usr/bin/make  -f CMakeFiles/cmTC_0d444.dir/build.make CMakeFiles/cmTC_0d444.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d444.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_GGDB  -Werror -ggdb -o CMakeFiles/cmTC_0d444.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0d444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d444.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0d444.dir/src.cxx.o -o cmTC_0d444 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7da0c/fast && /usr/bin/make  -f CMakeFiles/cmTC_7da0c.dir/build.make CMakeFiles/cmTC_7da0c.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7da0c.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7da0c.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7da0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7da0c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7da0c.dir/src.c.o -o cmTC_7da0c 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib/libX11.so;/usr/lib/libXext.so passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_596b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_596b5.dir/build.make CMakeFiles/cmTC_596b5.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_596b5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_596b5.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_596b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_596b5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_596b5.dir/CheckFunctionExists.c.o -o cmTC_596b5  /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89a3c/fast && /usr/bin/make  -f CMakeFiles/cmTC_89a3c.dir/build.make CMakeFiles/cmTC_89a3c.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89a3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_89a3c.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89a3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89a3c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_89a3c.dir/CheckFunctionExists.c.o -o cmTC_89a3c 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9afb3/fast && /usr/bin/make  -f CMakeFiles/cmTC_9afb3.dir/build.make CMakeFiles/cmTC_9afb3.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9afb3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_9afb3.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9afb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9afb3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_9afb3.dir/CheckFunctionExists.c.o -o cmTC_9afb3 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ded52/fast && /usr/bin/make  -f CMakeFiles/cmTC_ded52.dir/build.make CMakeFiles/cmTC_ded52.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ded52.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_ded52.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ded52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ded52.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_ded52.dir/CheckFunctionExists.c.o -o cmTC_ded52 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f94bf/fast && /usr/bin/make  -f CMakeFiles/cmTC_f94bf.dir/build.make CMakeFiles/cmTC_f94bf.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f94bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_f94bf.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f94bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f94bf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_f94bf.dir/CheckFunctionExists.c.o -o cmTC_f94bf 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8df97/fast && /usr/bin/make  -f CMakeFiles/cmTC_8df97.dir/build.make CMakeFiles/cmTC_8df97.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8df97.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_8df97.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8df97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8df97.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_8df97.dir/CheckFunctionExists.c.o -o cmTC_8df97  -lICE 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test FLAG_CXX_CXX11 succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bf6f8/fast && /usr/bin/make  -f CMakeFiles/cmTC_bf6f8.dir/build.make CMakeFiles/cmTC_bf6f8.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf6f8.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_CXX11  -Werror -std=c++11 -o CMakeFiles/cmTC_bf6f8.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bf6f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf6f8.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_bf6f8.dir/src.cxx.o -o cmTC_bf6f8 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e72f/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e72f.dir/build.make CMakeFiles/cmTC_5e72f.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e72f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_5e72f.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e72f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e72f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl CMakeFiles/cmTC_5e72f.dir/CheckFunctionExists.c.o -o cmTC_5e72f 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_990d3/fast && /usr/bin/make  -f CMakeFiles/cmTC_990d3.dir/build.make CMakeFiles/cmTC_990d3.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_990d3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll -o CMakeFiles/cmTC_990d3.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_990d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_990d3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=poll CMakeFiles/cmTC_990d3.dir/CheckFunctionExists.c.o -o cmTC_990d3 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3ceda/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ceda.dir/build.make CMakeFiles/cmTC_3ceda.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ceda.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getaddrinfo -o CMakeFiles/cmTC_3ceda.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ceda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ceda.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getaddrinfo CMakeFiles/cmTC_3ceda.dir/CheckFunctionExists.c.o -o cmTC_3ceda 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getnameinfo exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0fd25/fast && /usr/bin/make  -f CMakeFiles/cmTC_0fd25.dir/build.make CMakeFiles/cmTC_0fd25.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fd25.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getnameinfo -o CMakeFiles/cmTC_0fd25.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0fd25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd25.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getnameinfo CMakeFiles/cmTC_0fd25.dir/CheckFunctionExists.c.o -o cmTC_0fd25 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname_r exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ffe9a/fast && /usr/bin/make  -f CMakeFiles/cmTC_ffe9a.dir/build.make CMakeFiles/cmTC_ffe9a.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffe9a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname_r -o CMakeFiles/cmTC_ffe9a.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ffe9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffe9a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname_r CMakeFiles/cmTC_ffe9a.dir/CheckFunctionExists.c.o -o cmTC_ffe9a 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyaddr_r exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_31c3d/fast && /usr/bin/make  -f CMakeFiles/cmTC_31c3d.dir/build.make CMakeFiles/cmTC_31c3d.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31c3d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -o CMakeFiles/cmTC_31c3d.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_31c3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c3d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r CMakeFiles/cmTC_31c3d.dir/CheckFunctionExists.c.o -o cmTC_31c3d 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_adc13/fast && /usr/bin/make  -f CMakeFiles/cmTC_adc13.dir/build.make CMakeFiles/cmTC_adc13.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adc13.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_pton -o CMakeFiles/cmTC_adc13.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_adc13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adc13.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_pton CMakeFiles/cmTC_adc13.dir/CheckFunctionExists.c.o -o cmTC_adc13 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_ntop exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_beca7/fast && /usr/bin/make  -f CMakeFiles/cmTC_beca7.dir/build.make CMakeFiles/cmTC_beca7.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_beca7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_ntop -o CMakeFiles/cmTC_beca7.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_beca7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_beca7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_ntop CMakeFiles/cmTC_beca7.dir/CheckFunctionExists.c.o -o cmTC_beca7 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a3db3/fast && /usr/bin/make  -f CMakeFiles/cmTC_a3db3.dir/build.make CMakeFiles/cmTC_a3db3.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3db3.dir/src.c.o
+/usr/bin/cc -DHAS_MSGHDR_FLAGS   -o CMakeFiles/cmTC_a3db3.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a3db3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3db3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a3db3.dir/src.c.o -o cmTC_a3db3 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7d6be/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d6be.dir/build.make CMakeFiles/cmTC_7d6be.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d6be.dir/HAS_SOCKLEN_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d6be.dir/HAS_SOCKLEN_T.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c
+Linking C executable cmTC_7d6be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d6be.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7d6be.dir/HAS_SOCKLEN_T.c.o -o cmTC_7d6be 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the BZ2_bzCompressInit exist passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17d18/fast && /usr/bin/make  -f CMakeFiles/cmTC_17d18.dir/build.make CMakeFiles/cmTC_17d18.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17d18.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_17d18.dir/CheckSymbolExists.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_17d18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17d18.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_17d18.dir/CheckSymbolExists.c.o -o cmTC_17d18  /usr/lib/libbz2.so 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <bzlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef BZ2_bzCompressInit
+  return ((int*)(&BZ2_bzCompressInit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function lzma_auto_decoder exists in the /usr/lib/liblzma.so passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f63b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_f63b4.dir/build.make CMakeFiles/cmTC_f63b4.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f63b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lzma_auto_decoder -o CMakeFiles/cmTC_f63b4.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f63b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f63b4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lzma_auto_decoder CMakeFiles/cmTC_f63b4.dir/CheckFunctionExists.c.o -o cmTC_f63b4  /usr/lib/liblzma.so 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function lzma_easy_encoder exists in the /usr/lib/liblzma.so passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_63953/fast && /usr/bin/make  -f CMakeFiles/cmTC_63953.dir/build.make CMakeFiles/cmTC_63953.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63953.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lzma_easy_encoder -o CMakeFiles/cmTC_63953.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_63953
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63953.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lzma_easy_encoder CMakeFiles/cmTC_63953.dir/CheckFunctionExists.c.o -o cmTC_63953  /usr/lib/liblzma.so 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function lzma_lzma_preset exists in the /usr/lib/liblzma.so passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85695/fast && /usr/bin/make  -f CMakeFiles/cmTC_85695.dir/build.make CMakeFiles/cmTC_85695.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85695.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=lzma_lzma_preset -o CMakeFiles/cmTC_85695.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_85695
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85695.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=lzma_lzma_preset CMakeFiles/cmTC_85695.dir/CheckFunctionExists.c.o -o cmTC_85695  /usr/lib/liblzma.so 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file lzma.h exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e045a/fast && /usr/bin/make  -f CMakeFiles/cmTC_e045a.dir/build.make CMakeFiles/cmTC_e045a.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e045a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e045a.dir/CheckIncludeFile.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e045a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e045a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e045a.dir/CheckIncludeFile.c.o -o cmTC_e045a 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file zstd.h exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_42839/fast && /usr/bin/make  -f CMakeFiles/cmTC_42839.dir/build.make CMakeFiles/cmTC_42839.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42839.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_42839.dir/CheckIncludeFile.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_42839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42839.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_42839.dir/CheckIncludeFile.c.o -o cmTC_42839 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test FNO_LTO_AVAILABLE succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_87b2f/fast && /usr/bin/make  -f CMakeFiles/cmTC_87b2f.dir/build.make CMakeFiles/cmTC_87b2f.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87b2f.dir/src.c.o
+/usr/bin/cc -DFNO_LTO_AVAILABLE  -fno-lto -std=c11 -o CMakeFiles/cmTC_87b2f.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_87b2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87b2f.dir/link.txt --verbose=1
+/usr/bin/cc  -fno-lto CMakeFiles/cmTC_87b2f.dir/src.c.o -o cmTC_87b2f 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/auxv.h exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3a10c/fast && /usr/bin/make  -f CMakeFiles/cmTC_3a10c.dir/build.make CMakeFiles/cmTC_3a10c.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a10c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3a10c.dir/CheckIncludeFile.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3a10c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a10c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3a10c.dir/CheckIncludeFile.c.o -o cmTC_3a10c 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/sdt.h exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d8029/fast && /usr/bin/make  -f CMakeFiles/cmTC_d8029.dir/build.make CMakeFiles/cmTC_d8029.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8029.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_d8029.dir/CheckIncludeFile.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8029
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8029.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d8029.dir/CheckIncludeFile.c.o -o cmTC_d8029 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37cce/fast && /usr/bin/make  -f CMakeFiles/cmTC_37cce.dir/build.make CMakeFiles/cmTC_37cce.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37cce.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_37cce.dir/CheckIncludeFile.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_37cce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37cce.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_37cce.dir/CheckIncludeFile.c.o -o cmTC_37cce 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24071/fast && /usr/bin/make  -f CMakeFiles/cmTC_24071.dir/build.make CMakeFiles/cmTC_24071.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24071.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  -std=c11 -o CMakeFiles/cmTC_24071.dir/CheckIncludeFile.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_24071
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24071.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_24071.dir/CheckIncludeFile.c.o -o cmTC_24071 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3baf9/fast && /usr/bin/make  -f CMakeFiles/cmTC_3baf9.dir/build.make CMakeFiles/cmTC_3baf9.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3baf9.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  -std=c11 -o CMakeFiles/cmTC_3baf9.dir/CheckIncludeFile.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3baf9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3baf9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3baf9.dir/CheckIncludeFile.c.o -o cmTC_3baf9 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c076/fast && /usr/bin/make  -f CMakeFiles/cmTC_2c076.dir/build.make CMakeFiles/cmTC_2c076.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c076.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  -std=c11 -o CMakeFiles/cmTC_2c076.dir/CheckIncludeFile.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2c076
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c076.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2c076.dir/CheckIncludeFile.c.o -o cmTC_2c076 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_86270/fast && /usr/bin/make  -f CMakeFiles/cmTC_86270.dir/build.make CMakeFiles/cmTC_86270.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86270.dir/OFF64_T.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64   -o CMakeFiles/cmTC_86270.dir/OFF64_T.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_86270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86270.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_86270.dir/OFF64_T.c.o -o cmTC_86270 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_db598/fast && /usr/bin/make  -f CMakeFiles/cmTC_db598.dir/build.make CMakeFiles/cmTC_db598.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db598.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -std=c11 -o CMakeFiles/cmTC_db598.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db598
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db598.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko CMakeFiles/cmTC_db598.dir/CheckFunctionExists.c.o -o cmTC_db598 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_556f8/fast && /usr/bin/make  -f CMakeFiles/cmTC_556f8.dir/build.make CMakeFiles/cmTC_556f8.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_556f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strerror -std=c11 -o CMakeFiles/cmTC_556f8.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_556f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_556f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strerror CMakeFiles/cmTC_556f8.dir/CheckFunctionExists.c.o -o cmTC_556f8 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function posix_memalign exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4e55e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e55e.dir/build.make CMakeFiles/cmTC_4e55e.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e55e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=posix_memalign   -D _POSIX_C_SOURCE=200112L -std=c11 -o CMakeFiles/cmTC_4e55e.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4e55e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e55e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=posix_memalign CMakeFiles/cmTC_4e55e.dir/CheckFunctionExists.c.o -o cmTC_4e55e 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_NO_INTERPOSITION succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_382cc/fast && /usr/bin/make  -f CMakeFiles/cmTC_382cc.dir/build.make CMakeFiles/cmTC_382cc.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_382cc.dir/src.c.o
+/usr/bin/cc -DHAVE_NO_INTERPOSITION  -fno-semantic-interposition -std=c11 -o CMakeFiles/cmTC_382cc.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_382cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_382cc.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_382cc.dir/src.c.o -o cmTC_382cc 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0865e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0865e.dir/build.make CMakeFiles/cmTC_0865e.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0865e.dir/src.c.o
+/usr/bin/cc -DHAVE_ATTRIBUTE_VISIBILITY_HIDDEN  -std=c11 -o CMakeFiles/cmTC_0865e.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0865e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0865e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0865e.dir/src.c.o -o cmTC_0865e 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52a43/fast && /usr/bin/make  -f CMakeFiles/cmTC_52a43.dir/build.make CMakeFiles/cmTC_52a43.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52a43.dir/src.c.o
+/usr/bin/cc -DHAVE_ATTRIBUTE_VISIBILITY_INTERNAL  -std=c11 -o CMakeFiles/cmTC_52a43.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_52a43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52a43.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_52a43.dir/src.c.o -o cmTC_52a43 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZ succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_63c9b/fast && /usr/bin/make  -f CMakeFiles/cmTC_63c9b.dir/build.make CMakeFiles/cmTC_63c9b.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63c9b.dir/src.c.o
+/usr/bin/cc -DHAVE_BUILTIN_CTZ  -std=c11 -o CMakeFiles/cmTC_63c9b.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_63c9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63c9b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_63c9b.dir/src.c.o -o cmTC_63c9b 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctz(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZLL succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_40cfd/fast && /usr/bin/make  -f CMakeFiles/cmTC_40cfd.dir/build.make CMakeFiles/cmTC_40cfd.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40cfd.dir/src.c.o
+/usr/bin/cc -DHAVE_BUILTIN_CTZLL  -std=c11 -o CMakeFiles/cmTC_40cfd.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_40cfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40cfd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_40cfd.dir/src.c.o -o cmTC_40cfd 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctzll(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_PTRDIFF_T succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7f097/fast && /usr/bin/make  -f CMakeFiles/cmTC_7f097.dir/build.make CMakeFiles/cmTC_7f097.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f097.dir/src.c.o
+/usr/bin/cc -DHAVE_PTRDIFF_T  -std=c11 -o CMakeFiles/cmTC_7f097.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f097
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f097.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7f097.dir/src.c.o -o cmTC_7f097 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <stddef.h>
+     int main() {
+         ptrdiff_t *a;
+         (void)a;
+         return 0;
+    }
+Performing C SOURCE FILE Test HAVE_AVX2_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cefcb/fast && /usr/bin/make  -f CMakeFiles/cmTC_cefcb.dir/build.make CMakeFiles/cmTC_cefcb.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cefcb.dir/src.c.o
+/usr/bin/cc -DHAVE_AVX2_INTRIN  -mavx2 -std=c11 -o CMakeFiles/cmTC_cefcb.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cefcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cefcb.dir/link.txt --verbose=1
+/usr/bin/cc  -mavx2 CMakeFiles/cmTC_cefcb.dir/src.c.o -o cmTC_cefcb 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m256i x = _mm256_set1_epi16(2);
+            const __m256i y = _mm256_set1_epi16(1);
+            x = _mm256_subs_epu16(x, y);
+            (void)x;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_AVX512_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eff1f/fast && /usr/bin/make  -f CMakeFiles/cmTC_eff1f.dir/build.make CMakeFiles/cmTC_eff1f.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eff1f.dir/src.c.o
+/usr/bin/cc -DHAVE_AVX512_INTRIN  -mavx512f -mavx512dq -mavx512bw -mavx512vl -mtune=cascadelake -std=c11 -o CMakeFiles/cmTC_eff1f.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eff1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eff1f.dir/link.txt --verbose=1
+/usr/bin/cc  -mavx512f -mavx512dq -mavx512bw -mavx512vl -mtune=cascadelake CMakeFiles/cmTC_eff1f.dir/src.c.o -o cmTC_eff1f 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m512i x = _mm512_set1_epi8(2);
+            const __m512i y = _mm512_set_epi8(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+                                              20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,
+                                              38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,
+                                              56, 57, 58, 59, 60, 61, 62, 63, 64);
+            x = _mm512_sub_epi8(x, y);
+            (void)x;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_MASK_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d5f6/fast && /usr/bin/make  -f CMakeFiles/cmTC_5d5f6.dir/build.make CMakeFiles/cmTC_5d5f6.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d5f6.dir/src.c.o
+/usr/bin/cc -DHAVE_MASK_INTRIN  -mavx512f -mavx512dq -mavx512bw -mavx512vl -mtune=cascadelake -std=c11 -o CMakeFiles/cmTC_5d5f6.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5d5f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d5f6.dir/link.txt --verbose=1
+/usr/bin/cc  -mavx512f -mavx512dq -mavx512bw -mavx512vl -mtune=cascadelake CMakeFiles/cmTC_5d5f6.dir/src.c.o -o cmTC_5d5f6 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __mmask16 a = 0xFF;
+            a = _knot_mask16(a);
+            (void)a;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_AVX512VNNI_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89186/fast && /usr/bin/make  -f CMakeFiles/cmTC_89186.dir/build.make CMakeFiles/cmTC_89186.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89186.dir/src.c.o
+/usr/bin/cc -DHAVE_AVX512VNNI_INTRIN  -mavx512f -mavx512dq -mavx512bw -mavx512vl -mavx512vnni -mtune=cascadelake -std=c11 -o CMakeFiles/cmTC_89186.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_89186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89186.dir/link.txt --verbose=1
+/usr/bin/cc  -mavx512f -mavx512dq -mavx512bw -mavx512vl -mavx512vnni -mtune=cascadelake CMakeFiles/cmTC_89186.dir/src.c.o -o cmTC_89186 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m512i x = _mm512_set1_epi8(2);
+            const __m512i y = _mm512_set_epi8(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+                                              20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,
+                                              38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55,
+                                              56, 57, 58, 59, 60, 61, 62, 63, 64);
+            __m512i z = _mm512_setzero_epi32();
+            z = _mm512_dpbusd_epi32(z, x, y);
+            (void)z;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE41_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1ddc1/fast && /usr/bin/make  -f CMakeFiles/cmTC_1ddc1.dir/build.make CMakeFiles/cmTC_1ddc1.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ddc1.dir/src.c.o
+/usr/bin/cc -DHAVE_SSE41_INTRIN  -msse4.1 -std=c11 -o CMakeFiles/cmTC_1ddc1.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1ddc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ddc1.dir/link.txt --verbose=1
+/usr/bin/cc  -msse4.1 CMakeFiles/cmTC_1ddc1.dir/src.c.o -o cmTC_1ddc1 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i u, v, w;
+            u = _mm_set1_epi8(1);
+            v = _mm_set1_epi8(2);
+            w = _mm_sad_epu8(u, v);
+            (void)w;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INLINE_ASM succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7ff4e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7ff4e.dir/build.make CMakeFiles/cmTC_7ff4e.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ff4e.dir/src.c.o
+/usr/bin/cc -DHAVE_SSE42CRC_INLINE_ASM  -msse4.2 -std=c11 -o CMakeFiles/cmTC_7ff4e.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7ff4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ff4e.dir/link.txt --verbose=1
+/usr/bin/cc  -msse4.2 CMakeFiles/cmTC_7ff4e.dir/src.c.o -o cmTC_7ff4e 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) {
+            unsigned val = 0, h = 0;
+        #if defined(_MSC_VER)
+            { __asm mov edx, h __asm mov eax, val __asm crc32 eax, edx __asm mov h, eax }
+        #else
+            __asm__ __volatile__ ( "crc32 %1,%0" : "+r" (h) : "r" (val) );
+        #endif
+            return (int)h;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_31672/fast && /usr/bin/make  -f CMakeFiles/cmTC_31672.dir/build.make CMakeFiles/cmTC_31672.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31672.dir/src.c.o
+/usr/bin/cc -DHAVE_SSE42CRC_INTRIN  -msse4.2 -std=c11 -o CMakeFiles/cmTC_31672.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_31672
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31672.dir/link.txt --verbose=1
+/usr/bin/cc  -msse4.2 CMakeFiles/cmTC_31672.dir/src.c.o -o cmTC_31672 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned crc = 0;
+            char c = 'c';
+        #if defined(_MSC_VER)
+            crc = _mm_crc32_u32(crc, c);
+        #else
+            crc = __builtin_ia32_crc32qi(crc, c);
+        #endif
+            (void)crc;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CMPSTR_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6c778/fast && /usr/bin/make  -f CMakeFiles/cmTC_6c778.dir/build.make CMakeFiles/cmTC_6c778.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c778.dir/src.c.o
+/usr/bin/cc -DHAVE_SSE42CMPSTR_INTRIN  -msse4.2 -std=c11 -o CMakeFiles/cmTC_6c778.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6c778
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c778.dir/link.txt --verbose=1
+/usr/bin/cc  -msse4.2 CMakeFiles/cmTC_6c778.dir/src.c.o -o cmTC_6c778 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned char a[64] = { 0 };
+            unsigned char b[64] = { 0 };
+            __m128i xmm_src0, xmm_src1;
+            xmm_src0 = _mm_loadu_si128((__m128i *)(char *)a);
+            xmm_src1 = _mm_loadu_si128((__m128i *)(char *)b);
+            return _mm_cmpestri(xmm_src0, 16, xmm_src1, 16, 0);
+        }
+Performing C SOURCE FILE Test HAVE_SSE2_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_78e64/fast && /usr/bin/make  -f CMakeFiles/cmTC_78e64.dir/build.make CMakeFiles/cmTC_78e64.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78e64.dir/src.c.o
+/usr/bin/cc -DHAVE_SSE2_INTRIN  -msse2 -std=c11 -o CMakeFiles/cmTC_78e64.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_78e64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78e64.dir/link.txt --verbose=1
+/usr/bin/cc  -msse2 CMakeFiles/cmTC_78e64.dir/src.c.o -o cmTC_78e64 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i zero = _mm_setzero_si128();
+            (void)zero;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSSE3_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_00cc7/fast && /usr/bin/make  -f CMakeFiles/cmTC_00cc7.dir/build.make CMakeFiles/cmTC_00cc7.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00cc7.dir/src.c.o
+/usr/bin/cc -DHAVE_SSSE3_INTRIN  -mssse3 -std=c11 -o CMakeFiles/cmTC_00cc7.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_00cc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00cc7.dir/link.txt --verbose=1
+/usr/bin/cc  -mssse3 CMakeFiles/cmTC_00cc7.dir/src.c.o -o cmTC_00cc7 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i u, v, w;
+            u = _mm_set1_epi32(1);
+            v = _mm_set1_epi32(2);
+            w = _mm_hadd_epi32(u, v);
+            (void)w;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PCLMULQDQ_INTRIN succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7e766/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e766.dir/build.make CMakeFiles/cmTC_7e766.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e766.dir/src.c.o
+/usr/bin/cc -DHAVE_PCLMULQDQ_INTRIN  -mpclmul -std=c11 -o CMakeFiles/cmTC_7e766.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7e766
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e766.dir/link.txt --verbose=1
+/usr/bin/cc  -mpclmul CMakeFiles/cmTC_7e766.dir/src.c.o -o cmTC_7e766 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+            int main(void) {
+                __m128i a = _mm_setzero_si128();
+                __m128i b = _mm_setzero_si128();
+                __m128i c = _mm_clmulepi64_si128(a, b, 0x10);
+                (void)c;
+                return 0;
+            }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bf6dd/fast && /usr/bin/make  -f CMakeFiles/cmTC_bf6dd.dir/build.make CMakeFiles/cmTC_bf6dd.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf6dd.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wall -Wextra -Wno-unused-parameter    -fvisibility=hidden -std=gnu++11 -o CMakeFiles/cmTC_bf6dd.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bf6dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf6dd.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter  CMakeFiles/cmTC_bf6dd.dir/src.cxx.o -o cmTC_bf6dd 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e2ee0/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2ee0.dir/build.make CMakeFiles/cmTC_e2ee0.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2ee0.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wall -Wextra -Wno-unused-parameter    -fvisibility-inlines-hidden -std=gnu++11 -o CMakeFiles/cmTC_e2ee0.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e2ee0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2ee0.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter  CMakeFiles/cmTC_e2ee0.dir/src.cxx.o -o cmTC_e2ee0 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e57e/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e57e.dir/build.make CMakeFiles/cmTC_5e57e.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e57e.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wall -Wextra -Wno-unused-parameter  -std=gnu++11 -o CMakeFiles/cmTC_5e57e.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                         ~~~~~~~~^~
+/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_5e57e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e57e.dir/link.txt --verbose=1
+/usr/bin/c++  -Wall -Wextra -Wno-unused-parameter  CMakeFiles/cmTC_5e57e.dir/src.cxx.o -o cmTC_5e57e 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Determining if files pulse/pulseaudio.h exist passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d3ef5/fast && /usr/bin/make  -f CMakeFiles/cmTC_d3ef5.dir/build.make CMakeFiles/cmTC_d3ef5.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3ef5.dir/USE_PULSE.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter  -o CMakeFiles/cmTC_d3ef5.dir/USE_PULSE.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CheckIncludeFiles/USE_PULSE.c
+Linking C executable cmTC_d3ef5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3ef5.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter  -rdynamic CMakeFiles/cmTC_d3ef5.dir/USE_PULSE.c.o -o cmTC_d3ef5 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files alsa/asoundlib.h exist passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_863a2/fast && /usr/bin/make  -f CMakeFiles/cmTC_863a2.dir/build.make CMakeFiles/cmTC_863a2.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_863a2.dir/USE_ALSA.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter  -o CMakeFiles/cmTC_863a2.dir/USE_ALSA.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CheckIncludeFiles/USE_ALSA.c
+Linking C executable cmTC_863a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_863a2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter  -rdynamic CMakeFiles/cmTC_863a2.dir/USE_ALSA.c.o -o cmTC_863a2 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files jack/jack.h exist passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24f02/fast && /usr/bin/make  -f CMakeFiles/cmTC_24f02.dir/build.make CMakeFiles/cmTC_24f02.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24f02.dir/USE_JACK.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-unused-parameter  -o CMakeFiles/cmTC_24f02.dir/USE_JACK.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CheckIncludeFiles/USE_JACK.c
+Linking C executable cmTC_24f02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24f02.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-unused-parameter  -rdynamic CMakeFiles/cmTC_24f02.dir/USE_JACK.c.o -o cmTC_24f02 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test MBEDTLS_VERSION_OK succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c3efa/fast && /usr/bin/make  -f CMakeFiles/cmTC_c3efa.dir/build.make CMakeFiles/cmTC_c3efa.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3efa.dir/src.cxx.o
+/usr/bin/c++ -DMBEDTLS_VERSION_OK   -o CMakeFiles/cmTC_c3efa.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c3efa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3efa.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c3efa.dir/src.cxx.o -o cmTC_c3efa 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	#include <mbedtls/version.h>
+	#if MBEDTLS_VERSION_NUMBER < 0x021C0000
+	#error "Your mbed TLS version is too old."
+	#endif
+	int main() {}
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6a559/fast && /usr/bin/make  -f CMakeFiles/cmTC_6a559.dir/build.make CMakeFiles/cmTC_6a559.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a559.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=strdup -std=c99 -o CMakeFiles/cmTC_6a559.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a559
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a559.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=strdup CMakeFiles/cmTC_6a559.dir/CheckFunctionExists.c.o -o cmTC_6a559 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strndup exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf27f/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf27f.dir/build.make CMakeFiles/cmTC_cf27f.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf27f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=strndup -std=c99 -o CMakeFiles/cmTC_cf27f.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf27f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf27f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=strndup CMakeFiles/cmTC_cf27f.dir/CheckFunctionExists.c.o -o cmTC_cf27f 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ef164/fast && /usr/bin/make  -f CMakeFiles/cmTC_ef164.dir/build.make CMakeFiles/cmTC_ef164.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef164.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=vasprintf -std=c99 -o CMakeFiles/cmTC_ef164.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef164
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef164.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=vasprintf CMakeFiles/cmTC_ef164.dir/CheckFunctionExists.c.o -o cmTC_ef164 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function freelocale exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19820/fast && /usr/bin/make  -f CMakeFiles/cmTC_19820.dir/build.make CMakeFiles/cmTC_19820.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19820.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=freelocale -std=c99 -o CMakeFiles/cmTC_19820.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19820.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=freelocale CMakeFiles/cmTC_19820.dir/CheckFunctionExists.c.o -o cmTC_19820 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function newlocale exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cca10/fast && /usr/bin/make  -f CMakeFiles/cmTC_cca10.dir/build.make CMakeFiles/cmTC_cca10.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cca10.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=newlocale -std=c99 -o CMakeFiles/cmTC_cca10.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cca10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cca10.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=newlocale CMakeFiles/cmTC_cca10.dir/CheckFunctionExists.c.o -o cmTC_cca10 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_18121/fast && /usr/bin/make  -f CMakeFiles/cmTC_18121.dir/build.make CMakeFiles/cmTC_18121.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18121.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=setlocale -std=c99 -o CMakeFiles/cmTC_18121.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_18121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18121.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=setlocale CMakeFiles/cmTC_18121.dir/CheckFunctionExists.c.o -o cmTC_18121 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function uselocale exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de5bd/fast && /usr/bin/make  -f CMakeFiles/cmTC_de5bd.dir/build.make CMakeFiles/cmTC_de5bd.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de5bd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=uselocale -std=c99 -o CMakeFiles/cmTC_de5bd.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de5bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de5bd.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=uselocale CMakeFiles/cmTC_de5bd.dir/CheckFunctionExists.c.o -o cmTC_de5bd 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function futimens exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19a7b/fast && /usr/bin/make  -f CMakeFiles/cmTC_19a7b.dir/build.make CMakeFiles/cmTC_19a7b.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19a7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=futimens -std=c99 -o CMakeFiles/cmTC_19a7b.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19a7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a7b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=futimens CMakeFiles/cmTC_19a7b.dir/CheckFunctionExists.c.o -o cmTC_19a7b 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function futimes exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ab1d1/fast && /usr/bin/make  -f CMakeFiles/cmTC_ab1d1.dir/build.make CMakeFiles/cmTC_ab1d1.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab1d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=futimes -std=c99 -o CMakeFiles/cmTC_ab1d1.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ab1d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab1d1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=futimes CMakeFiles/cmTC_ab1d1.dir/CheckFunctionExists.c.o -o cmTC_ab1d1 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cb5a1/fast && /usr/bin/make  -f CMakeFiles/cmTC_cb5a1.dir/build.make CMakeFiles/cmTC_cb5a1.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb5a1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=localtime_r -std=c99 -o CMakeFiles/cmTC_cb5a1.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb5a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb5a1.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -DCHECK_FUNCTION_EXISTS=localtime_r CMakeFiles/cmTC_cb5a1.dir/CheckFunctionExists.c.o -o cmTC_cb5a1 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6caf2/fast && /usr/bin/make  -f CMakeFiles/cmTC_6caf2.dir/build.make CMakeFiles/cmTC_6caf2.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6caf2.dir/HAVE_PTHREAD_H.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration  -o CMakeFiles/cmTC_6caf2.dir/HAVE_PTHREAD_H.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_H.c
+Linking C executable cmTC_6caf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6caf2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration  -rdynamic CMakeFiles/cmTC_6caf2.dir/HAVE_PTHREAD_H.c.o -o cmTC_6caf2 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8201f/fast && /usr/bin/make  -f CMakeFiles/cmTC_8201f.dir/build.make CMakeFiles/cmTC_8201f.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8201f.dir/src.c.o
+/usr/bin/cc -DHAVE_PTHREAD  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration    -pthread -std=c99 -o CMakeFiles/cmTC_8201f.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8201f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8201f.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration  CMakeFiles/cmTC_8201f.dir/src.c.o -o cmTC_8201f 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function pthread_create exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1bf3/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1bf3.dir/build.make CMakeFiles/cmTC_d1bf3.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1bf3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -pthread -DCHECK_FUNCTION_EXISTS=pthread_create -std=c99 -o CMakeFiles/cmTC_d1bf3.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1bf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1bf3.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -pthread -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_d1bf3.dir/CheckFunctionExists.c.o -o cmTC_d1bf3 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_13580/fast && /usr/bin/make  -f CMakeFiles/cmTC_13580.dir/build.make CMakeFiles/cmTC_13580.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13580.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -pthread -DCHECK_FUNCTION_EXISTS=pthread_setname_np -std=c99 -o CMakeFiles/cmTC_13580.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_13580
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13580.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wextra -Wno-missing-field-initializers -Werror=implicit-function-declaration -pthread -DCHECK_FUNCTION_EXISTS=pthread_setname_np CMakeFiles/cmTC_13580.dir/CheckFunctionExists.c.o -o cmTC_13580 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test FLAG_C_HAVE_WALL succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_889df/fast && /usr/bin/make  -f CMakeFiles/cmTC_889df.dir/build.make CMakeFiles/cmTC_889df.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_889df.dir/src.c.o
+/usr/bin/cc -DFLAG_C_HAVE_WALL  -Werror -Wall -o CMakeFiles/cmTC_889df.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_889df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_889df.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_889df.dir/src.c.o -o cmTC_889df 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_HAVE_WALL succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f9a3f/fast && /usr/bin/make  -f CMakeFiles/cmTC_f9a3f.dir/build.make CMakeFiles/cmTC_f9a3f.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9a3f.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_HAVE_WALL  -Werror -Wall -std=c++20 -o CMakeFiles/cmTC_f9a3f.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f9a3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a3f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_f9a3f.dir/src.cxx.o -o cmTC_f9a3f 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_TYPE_LIMITS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7e38a/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e38a.dir/build.make CMakeFiles/cmTC_7e38a.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e38a.dir/src.c.o
+/usr/bin/cc -DFLAG_C_TYPE_LIMITS  -Werror -Wtype-limits -o CMakeFiles/cmTC_7e38a.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7e38a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e38a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7e38a.dir/src.c.o -o cmTC_7e38a 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_TYPE_LIMITS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_860c5/fast && /usr/bin/make  -f CMakeFiles/cmTC_860c5.dir/build.make CMakeFiles/cmTC_860c5.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_860c5.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_TYPE_LIMITS  -Werror -Wtype-limits -std=c++20 -o CMakeFiles/cmTC_860c5.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_860c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_860c5.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_860c5.dir/src.cxx.o -o cmTC_860c5 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_SIGN_COMPARE succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3fab9/fast && /usr/bin/make  -f CMakeFiles/cmTC_3fab9.dir/build.make CMakeFiles/cmTC_3fab9.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fab9.dir/src.c.o
+/usr/bin/cc -DFLAG_C_SIGN_COMPARE  -Werror -Wsign-compare -o CMakeFiles/cmTC_3fab9.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3fab9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fab9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3fab9.dir/src.c.o -o cmTC_3fab9 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_SIGN_COMPARE succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_45306/fast && /usr/bin/make  -f CMakeFiles/cmTC_45306.dir/build.make CMakeFiles/cmTC_45306.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_45306.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_SIGN_COMPARE  -Werror -Wsign-compare -std=c++20 -o CMakeFiles/cmTC_45306.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_45306
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45306.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_45306.dir/src.cxx.o -o cmTC_45306 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_IGNORED_QUALIFIERS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85f5c/fast && /usr/bin/make  -f CMakeFiles/cmTC_85f5c.dir/build.make CMakeFiles/cmTC_85f5c.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85f5c.dir/src.c.o
+/usr/bin/cc -DFLAG_C_IGNORED_QUALIFIERS  -Werror -Wignored-qualifiers -o CMakeFiles/cmTC_85f5c.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_85f5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85f5c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_85f5c.dir/src.c.o -o cmTC_85f5c 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_IGNORED_QUALIFIERS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eafb7/fast && /usr/bin/make  -f CMakeFiles/cmTC_eafb7.dir/build.make CMakeFiles/cmTC_eafb7.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eafb7.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_IGNORED_QUALIFIERS  -Werror -Wignored-qualifiers -std=c++20 -o CMakeFiles/cmTC_eafb7.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eafb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eafb7.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_eafb7.dir/src.cxx.o -o cmTC_eafb7 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4957a/fast && /usr/bin/make  -f CMakeFiles/cmTC_4957a.dir/build.make CMakeFiles/cmTC_4957a.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4957a.dir/src.c.o
+/usr/bin/cc -DFLAG_C_UNINITIALIZED  -Werror -Wuninitialized -o CMakeFiles/cmTC_4957a.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4957a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4957a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4957a.dir/src.c.o -o cmTC_4957a 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_929db/fast && /usr/bin/make  -f CMakeFiles/cmTC_929db.dir/build.make CMakeFiles/cmTC_929db.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_929db.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_UNINITIALIZED  -Werror -Wuninitialized -std=c++20 -o CMakeFiles/cmTC_929db.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_929db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_929db.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_929db.dir/src.cxx.o -o cmTC_929db 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_LOGICAL_OP succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ccddb/fast && /usr/bin/make  -f CMakeFiles/cmTC_ccddb.dir/build.make CMakeFiles/cmTC_ccddb.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccddb.dir/src.c.o
+/usr/bin/cc -DFLAG_C_LOGICAL_OP  -Werror -Wlogical-op -o CMakeFiles/cmTC_ccddb.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ccddb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccddb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ccddb.dir/src.c.o -o cmTC_ccddb 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_LOGICAL_OP succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7bb77/fast && /usr/bin/make  -f CMakeFiles/cmTC_7bb77.dir/build.make CMakeFiles/cmTC_7bb77.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7bb77.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_LOGICAL_OP  -Werror -Wlogical-op -std=c++20 -o CMakeFiles/cmTC_7bb77.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7bb77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bb77.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_7bb77.dir/src.cxx.o -o cmTC_7bb77 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_SHADOW succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df69e/fast && /usr/bin/make  -f CMakeFiles/cmTC_df69e.dir/build.make CMakeFiles/cmTC_df69e.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df69e.dir/src.c.o
+/usr/bin/cc -DFLAG_C_SHADOW  -Werror -Wshadow -o CMakeFiles/cmTC_df69e.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_df69e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df69e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_df69e.dir/src.c.o -o cmTC_df69e 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_SHADOW succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_13a66/fast && /usr/bin/make  -f CMakeFiles/cmTC_13a66.dir/build.make CMakeFiles/cmTC_13a66.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13a66.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_SHADOW  -Werror -Wshadow -std=c++20 -o CMakeFiles/cmTC_13a66.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_13a66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13a66.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_13a66.dir/src.cxx.o -o cmTC_13a66 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_INIT_SELF succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1bb5b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1bb5b.dir/build.make CMakeFiles/cmTC_1bb5b.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bb5b.dir/src.c.o
+/usr/bin/cc -DFLAG_C_INIT_SELF  -Werror -Winit-self -o CMakeFiles/cmTC_1bb5b.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1bb5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bb5b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1bb5b.dir/src.c.o -o cmTC_1bb5b 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_INIT_SELF succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7c014/fast && /usr/bin/make  -f CMakeFiles/cmTC_7c014.dir/build.make CMakeFiles/cmTC_7c014.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c014.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_INIT_SELF  -Werror -Winit-self -std=c++20 -o CMakeFiles/cmTC_7c014.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7c014
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c014.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_7c014.dir/src.cxx.o -o cmTC_7c014 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_MISSING_DECLARATIONS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee4b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee4b4.dir/build.make CMakeFiles/cmTC_ee4b4.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee4b4.dir/src.c.o
+/usr/bin/cc -DFLAG_C_MISSING_DECLARATIONS  -Werror -Wmissing-declarations -o CMakeFiles/cmTC_ee4b4.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ee4b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee4b4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ee4b4.dir/src.c.o -o cmTC_ee4b4 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_MISSING_DECLARATIONS succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0d8f0/fast && /usr/bin/make  -f CMakeFiles/cmTC_0d8f0.dir/build.make CMakeFiles/cmTC_0d8f0.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d8f0.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_MISSING_DECLARATIONS  -Werror -Wmissing-declarations -std=c++20 -o CMakeFiles/cmTC_0d8f0.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0d8f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d8f0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0d8f0.dir/src.cxx.o -o cmTC_0d8f0 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_STRINGOP_TRUNCATION_WARNING succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37543/fast && /usr/bin/make  -f CMakeFiles/cmTC_37543.dir/build.make CMakeFiles/cmTC_37543.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37543.dir/src.cxx.o
+/usr/bin/c++ -DHAS_STRINGOP_TRUNCATION_WARNING  -Wstringop-truncation -std=c++20 -o CMakeFiles/cmTC_37543.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_37543
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37543.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_37543.dir/src.cxx.o -o cmTC_37543 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_NO_STRINGOP_TRUNCATION succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_82af5/fast && /usr/bin/make  -f CMakeFiles/cmTC_82af5.dir/build.make CMakeFiles/cmTC_82af5.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82af5.dir/src.c.o
+/usr/bin/cc -DFLAG_C_NO_STRINGOP_TRUNCATION  -Werror -Wno-stringop-truncation -o CMakeFiles/cmTC_82af5.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_82af5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82af5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_82af5.dir/src.c.o -o cmTC_82af5 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_NO_STRINGOP_TRUNCATION succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_287d1/fast && /usr/bin/make  -f CMakeFiles/cmTC_287d1.dir/build.make CMakeFiles/cmTC_287d1.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_287d1.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_NO_STRINGOP_TRUNCATION  -Werror -Wno-stringop-truncation -std=c++20 -o CMakeFiles/cmTC_287d1.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_287d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_287d1.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_287d1.dir/src.cxx.o -o cmTC_287d1 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FORMAT_WARNING succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_939e7/fast && /usr/bin/make  -f CMakeFiles/cmTC_939e7.dir/build.make CMakeFiles/cmTC_939e7.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_939e7.dir/src.cxx.o
+/usr/bin/c++ -DHAS_FORMAT_WARNING  -Wformat -std=c++20 -o CMakeFiles/cmTC_939e7.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_939e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_939e7.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_939e7.dir/src.cxx.o -o cmTC_939e7 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test FLAG_C_FORMAT_WARNING_TO_ERROR succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6409a/fast && /usr/bin/make  -f CMakeFiles/cmTC_6409a.dir/build.make CMakeFiles/cmTC_6409a.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6409a.dir/src.c.o
+/usr/bin/cc -DFLAG_C_FORMAT_WARNING_TO_ERROR  -Werror -Werror=format -o CMakeFiles/cmTC_6409a.dir/src.c.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6409a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6409a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6409a.dir/src.c.o -o cmTC_6409a 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test FLAG_CXX_FORMAT_WARNING_TO_ERROR succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_be57a/fast && /usr/bin/make  -f CMakeFiles/cmTC_be57a.dir/build.make CMakeFiles/cmTC_be57a.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be57a.dir/src.cxx.o
+/usr/bin/c++ -DFLAG_CXX_FORMAT_WARNING_TO_ERROR  -Werror -Werror=format -std=c++20 -o CMakeFiles/cmTC_be57a.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_be57a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be57a.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_be57a.dir/src.cxx.o -o cmTC_be57a 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1fadd/fast && /usr/bin/make  -f CMakeFiles/cmTC_1fadd.dir/build.make CMakeFiles/cmTC_1fadd.dir/build
+make[1]: Entering directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fadd.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_STDATOMIC  -std=c++20 -o CMakeFiles/cmTC_1fadd.dir/src.cxx.o -c /home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1fadd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fadd.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_1fadd.dir/src.cxx.o -o cmTC_1fadd 
+make[1]: Leaving directory '/home/lami/Documents/GitHub/dolphin/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+int main(int, char **)
+{
+    volatile std::atomic<char>    size_1;
+    volatile std::atomic<short>   size_2;
+    volatile std::atomic<int>     size_4;
+    volatile std::atomic<int64_t> size_8;
+
+    ++size_1;
+    ++size_2;
+    ++size_4;
+    ++size_8;
+
+    (void)size_1.load(std::memory_order_relaxed);
+    (void)size_2.load(std::memory_order_relaxed);
+    (void)size_4.load(std::memory_order_relaxed);
+    (void)size_8.load(std::memory_order_relaxed);
+
+    return 0;
+}

@@ -52,7 +52,7 @@ jobs:
           mkdir build
           cd build
           cmake ..
-          make
+          make -j $(sproc)
       - name: Package Dolphin-Binary
         run: |
           mkdir -p $GITHUB_WORKSPACE/artifacts

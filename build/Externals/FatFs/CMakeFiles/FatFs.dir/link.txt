@@ -1,2 +1,0 @@
-/usr/bin/ar qcTP libFatFs.a CMakeFiles/FatFs.dir/ff.c.o CMakeFiles/FatFs.dir/ffunicode.c.o
-/usr/bin/ranlib libFatFs.a
